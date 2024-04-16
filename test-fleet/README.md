@@ -13,14 +13,20 @@ Currently, two official plugins are available:
 Je suis fier de vous présenter Mon Test React, une application web qui permet aux utilisateurs de rechercher des films pour voir leur description ainsi que leur date de sortie via l'API de TMBD. L'utilisateur peut naviguer à gauche avec une barre de recherche et cliquer sur n'importe quel film pour que ses informations s'affichent à droite de l'écran. Je vous souhaite une bonne découverte :)
 
 ## Installation
+assurez vous davoir node d'installer sur votre pc (pour verifier utiliser la commande "node -v" si le terminal vous renvoi uneversion alors il est istaller)
+
+
 dans votre terminal
 1. Clonez ce dépôt : `git clone https://github.com/Moonysphere/Fleet_test.git`
 2. Accédez au répertoire du projet : `cd fleet_test`
-3. Installez les dépendances : `npm install`
-4. Démarrez l'application : `npm run dev`
+3. Accédez au fichier du projet: `cd test-fleet`
+4. Installez les dépendances : `npm install`
+ouvrer ensuite
+5. Démarrez l'application : `npm run dev`
 votre terminal vous donnera alors un lien localhost ou vous pourrez visualiser le projet 
-5. profitez
+6. profitez
 
 # Structure du Projet
 src/: Contient le code source de l'application.(App.jsx )
 src/composents/: (Movie.jsx et SearchBar.jsx)
+
