@@ -1,25 +1,24 @@
+/* Styles généraux pour le corps de la page */
 body {
     background-color: #1e0f2d;
-
 }
 
-
+/* Styles pour la section principale de l'application Movie */
 .app_movie {
     display: flex;
-
 }
 
+/* Styles pour la boîte d'informations sur les films */
 .info_movie_box h1 {
     color: rgb(103, 104, 103);
-
     margin: 20rem 0rem 0rem 10rem;
+    /* Marge extérieure */
     font-size: 3rem;
-
 }
 
 .info_movie_box {
-
     margin: 0px 70px;
+    /* Marge extérieure */
 }
 
 .info_movie_box h2 {
@@ -27,43 +26,37 @@ body {
     font-size: 4.5rem;
     font-weight: 500;
     margin-bottom: 130px;
-
+    /* Marge extérieure */
 }
 
 .info_movie_box h3 {
     color: rgb(222, 222, 222);
     margin-bottom: 10px;
-
 }
-
-
 
 .info_movie_box {
     font-size: 1.2rem;
 }
 
-
+/* Styles pour la section d'informations sur les films */
 .info_movie {
     background-color: #1e0f2d;
     color: rgb(222, 222, 222);
     margin-top: 4rem;
-
-
 }
 
 .info {
-
     margin-top: 50px;
     display: flex;
 }
 
+/* Styles pour la boîte contenant les détails du film sélectionné */
 .box_movie {
-
     position: fixed;
     z-index: 1;
-
 }
 
+/* Styles pour l'image de fond floue du film sélectionné */
 .background_img_selected {
     position: absolute;
     z-index: -1;
@@ -72,10 +65,10 @@ body {
     right: 0px;
     justify-content: center;
     align-items: center;
-
     filter: blur(7px) brightness(50%);
 }
 
+/* Styles pour la section de recherche de films */
 .search {
     position: relative;
     background-color: #0e001d;
@@ -85,20 +78,18 @@ body {
     border-radius: 0px 15px 15px 0px;
     padding-top: 20px;
     transition: background-color 0.5s ease-in-out;
+    /* Transition de fond */
     min-width: 30%;
     z-index: 4;
     overflow: hidden;
-    /* Ajout de la transition de fond */
 }
 
 .img-search {
-
-
     width: 17%;
     margin-right: 20px;
 }
 
-
+/* Styles pour chaque boîte de film dans la liste de recherche */
 .box_search_movie {
     background-color: #0e001d;
     padding: 10px;
@@ -107,38 +98,39 @@ body {
 
 .box_search_movie:hover {
     transition: background-color 0.2s ease-in-out;
-    /* Ajout de la transition de fond */
-    /*glasmorphing*/
+    /* Transition de fond */
     background: rgba(255, 255, 255, 0.35);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
 }
 
+/* Styles pour la liste des films */
 li {
     list-style: none;
     display: flex;
     align-items: center;
-    transition: opacity 0.5s ease-in-out;
-    /* Ajout de la transition de fondu */
+
 }
 
 .img_selected {
-
     width: 30%;
     height: 30%;
 }
 
+/* Styles pour les paragraphes dans la boîte d'informations sur les films */
 .info_movie_box p {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
+/* Styles pour la section d'informations sur les films   */
 .info_movie {
     padding: 2rem 2rem;
 }
 
 @media only screen and (max-width: 768px) {
 
+    /* Styles pour les écrans de taille maximale de 768px (responsive) */
     .box_movie {
         position: relative;
     }
@@ -175,7 +167,6 @@ li {
     }
 
     .info_movie_box {
-
         margin: 0px 10px;
     }
 
@@ -186,13 +177,10 @@ li {
     .info_movie_box h1 {
         color: rgb(103, 104, 103);
         margin: 15rem 0rem 0rem 2rem;
-
         font-size: 2rem;
-
     }
 
     .box_search_movie p {
         font-size: 0.7rem;
     }
-
 }
