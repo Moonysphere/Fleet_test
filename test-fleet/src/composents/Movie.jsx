@@ -12,7 +12,7 @@ function Movie() {
 
     // Fonction pour récupérer la liste de films depuis l'API
     const getMovies = async () => {
-        const api_key = "706d8ab389d50454de0a171dbf8ca634";
+        const api_key = "AJOUTER VOTRE KEY API iebd";
         const base_url = "https://api.themoviedb.org/3/discover/movie";
         const num_pages = 2; // Nombre de pages à récupérer
         const allMovies = new Set(); // Utilisation d'un ensemble pour éviter les doublons
